@@ -1,0 +1,88 @@
+html, header, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Barlow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background: #7F3800;
+    color: white;
+    padding: 15px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: #eeebe4;
+    min-height: 80vh;
+}
+
+.schedule, .course-list, .course-input {
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+    background: #e5e0d5;
+    border-radius: 10px;
+    min-height: 60vh;
+    padding-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.table th{
+    background-color: #3C4858;
+    color: white;
+}
+
+.table td {
+    background-color: #DADBDD;
+}
+
+.table tr:hover {
+    background-color: #A9AAAF;
+}
+
+tr.open td {
+    background-color: rgb(60 72 88 / 70%);
+}
+
+tr.closed td {
+    background-color: rgb(179 87 0 / 70%);
+}
+
+td.reserved td {
+    background-color: rgba(218 219 221 / 70%);
+}
+
+.vertical-center {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
